@@ -9,31 +9,31 @@ onEvent("go", "click", function( ) {
 
 onEvent("Submit1", "click", function( ) {
 if(getChecked("1A")){
-setProperty("label7", "text-color","green");
+setProperty("bbbb", "text-color","green");
 deleteElement("Submit1");
 showElement("go1");
 }
 
 
 if(getChecked("2A")){
-setProperty("label6", "text-color","red");
-setProperty("label7", "text-color","green");
+setProperty("cccccc", "text-color","red");
+setProperty("bbbb", "text-color","green");
 deleteElement("Submit1");
 showElement("go1");
 }
 
 
 if(getChecked("3A")){
-setProperty("label5", "text-color","red");
-setProperty("label7", "text-color","green");
+setProperty("ddddddd", "text-color","red");
+setProperty("bbbb", "text-color","green");
 deleteElement("Submit1");
 showElement("go1");
 }
 
 
 if(getChecked("4A")){
-setProperty("label7", "text-color","green");
-setProperty("label8", "text-color","red");
+setProperty("bbbb", "text-color","green");
+setProperty("eeee", "text-color","red");
 deleteElement("Submit1");
 showElement("go1");
 }
@@ -80,7 +80,7 @@ onEvent("Submit3", "click", function( ) {
 if(getChecked("1C")){
 setProperty("11", "text-color","green");
 deleteElement("Submit3");
-showElement("go3+");
+showElement("go3");
 }
 
 
@@ -142,7 +142,5 @@ deleteElement("Submit4");
 showElement("go4");
 }
 });
-onEvent("go4", "click", function( ) {
-  setScreen("Q5");
-});
+
 
